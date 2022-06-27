@@ -1,0 +1,328 @@
+.nav-link{
+    font-size:25px;
+    margin-left: 10px;
+    color: black;
+}
+.nav-link:hover{
+    color: black;
+    font-weight: bolder;
+    text-underline-position: below;
+}
+.nvaimg{
+    margin-left: 30px;
+}
+#navbtn{
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    background-color: orangered;
+    color: white;
+}
+.dropdown-menu{
+   border: 12px solid green;
+}
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+      pointer-events: none;
+  }
+  
+@media screen and (max-width: 425px) {
+    .nvaimg{
+      width: 80px;
+    }
+  }
+
+
+  /* Footer css */
+  .fotrbg{
+    background-color: black;
+    color: white;
+    
+  }
+  .ftrimg{
+    border-radius: 50%;
+  }
+  .ftrli{
+    margin-bottom: 10px;
+    font-size: 20px;
+    list-style-type: none;
+  }
+  #ftrbtn{
+    background-color: rgb(42, 161, 207);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    float: right;
+    margin-right: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .ftrlstimg{
+    
+    margin-top: 100px;
+    margin-left: 50px;
+  }
+  .ftricon{
+    font-size: 30px;
+    
+  }
+  @media screen and (max-width: 425px) {
+    .ftrads{
+      text-align: center;
+    }
+  }
+  @media screen and (max-width: 425px) {
+    #ftrbtn{
+      margin-right: 100px;
+    }
+  }
+
+  /* Princing Css */
+  .prng1row{
+background-color: rgb(252, 156, 156);
+  }
+  .prngimg{
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-left-radius: 10%;
+    width: 100%;
+  }
+  .prngslu{
+    margin-top: 50px;
+  }
+  .prngftsz{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  @media screen and (max-width: 1024px) {
+    .prngimg{
+     margin-top: 100px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .prngslu1{
+     font-size: 25px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .prngslu2{
+     font-size: 20px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .prngftsz{
+     font-size: 15px;
+    }
+  }
+  @media screen and (max-width: 425px) {
+    .prngimg{
+     margin-top: -50px;
+    }
+  }
+  .prng2row{
+    background-color: bisque;
+  }
+  .prngbtns2:hover{
+    background-color: rgb(250, 86, 10);
+    color: white;
+    font-weight: bold;
+  
+  }
+  .prngbtns2{
+    background-color: white;
+    border: none;
+    padding: 08px;
+    border-radius: 08px;
+  }
+  .prngcrd{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  }
+  .prngbtntack{
+    background-color: orangered;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    border: none;
+  }
+  @media screen and (max-width: 425px) {
+    .prngbtntack{
+     margin-left: 80px;
+     margin-top: 20px;
+    }
+  }
+  @media screen and (max-width: 320px) {
+    .prngbtntack{
+     margin-left: 40px;
+     margin-top: 20px;
+    }
+  }
+
+  /* Resource css */
+  .resc1row{
+    background-color: rgb(194, 230, 245);
+    padding-top: 100px;
+    padding-bottom: 100px;
+   
+  }
+  .resctxsz1{
+    font-size: 50px;
+  }
+  .resctxsz{
+    font-size: 70px;
+  }
+  .rescbdclr{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
+   
+  }
+  
+
+  /* Solutions css */
+  .slo1row{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: linear-gradient(to Right,rgba(0,255,0,0.1),rgba(0,0,0,0));
+  }
+  .slohtag{
+    font-size: 55px;
+  }
+  .slohtag2{
+    font-size: 30px;
+  }
+  .slo2row{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: linear-gradient(to Right,rgba(0,0,0,0),rgba(255,0,0,0.1));
+  }
+  .slo2ptag{
+    font-size: 30px;
+  }
+  .sol3row{
+    border: 2px solid rgb(23, 98, 128);
+  }
+  .solhtaghr{
+    font-size: 100px;
+    border-bottom: 20px solid rgb(14, 77, 102);
+    border-bottom-width: -30px;
+  }
+  .solstr{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: skyblue;
+  }
+  .solstr1{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-size: 20px;
+  }
+  .slobtn3{
+    border: none;
+    margin-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: orangered;
+    color: white;
+  }
+  .solstr2{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: rgb(241, 164, 136);
+  }
+  .solhtaghr1{
+    font-size: 100px;
+    border-bottom: 20px solid orangered;
+    border-bottom-width: -30px;
+  }
+  .sol3row1{
+    border: 2px solid orangered;
+  }
+  .solstr3{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: rgb(137, 231, 137);
+  }
+  .solhtaghr3{
+    font-size: 100px;
+    border-bottom: 20px solid rgb(28, 216, 28);
+    border-bottom-width: -30px;
+  }
+  .sol3row2{
+    border: 2px solid lightgreen;
+  }
+  @media screen and (max-width: 1024px) {
+    .slohtag,.slohtag2,.slo2ptag{
+    font-size: 30px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .solhtaghr,.solhtaghr1,.solhtaghr3{
+    font-size: 50px;
+    }
+  }
+  @media screen and (max-width: 320px) {
+    .slo2ptag,.slohtag{
+    font-size: 30px;
+    }
+  }
+  @media screen and (max-width: 425px) {
+    .slohtag2{
+      text-align: center;
+    }
+  }
+
+  /* Login css */
+  .lg1cl{
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+.lg1row{
+  background-image: linear-gradient(to Right,rgba(0,0,0,0),rgba(255,0,0,0.1));
+}
+.lg1btn{
+  background-color: rgb(24, 130, 172);
+  color: white;
+  font-weight: bold;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+}
+.lg2btn{
+  background-color:white;
+  color: rgb(24, 130, 172);
+  font-weight: bold;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid rgb(24, 130, 172);
+}
+.lg2row{
+  background-image: linear-gradient(to Right,rgba(0,255,0,0.1),rgba(0,0,0,0));
+  padding-top: 100px;
+    padding-bottom: 100px;
+  
+}
+@media screen and (max-width: 425px) {
+  .lghtag{
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .lg1btn{
+    margin-bottom: 10px;
+  }
+}

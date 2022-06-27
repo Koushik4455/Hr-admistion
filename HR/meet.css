@@ -1,0 +1,130 @@
+
+.about1{
+    font-weight: bolder;
+    font-size: 50px;
+}
+.about2{
+    font-weight: 300;
+    font-size: 30px;
+    word-spacing: 0px;
+    letter-spacing: 0.5px;
+}
+.meet-color{
+    color:  rgb(17, 124, 151);
+    margin-bottom: 50px;
+}
+
+.imagee1:hover{
+    border: 5px solid aqua;
+}
+
+.profilename{
+    justify-content: center;
+    text-align: center;
+}
+.role{
+    justify-content: center;
+    text-align: center;
+}
+/* .profilename{
+    font-size: 1.5;
+
+} */
+
+/* .Community{
+    background-color: rgb(243, 234, 236);
+    height: 400px;
+} */
+#gradee1 {
+    height: 400px;
+    background-image: linear-gradient(to right, rgba(233, 191, 112, 0), rgb(230, 157, 109));
+  }
+.comm1{
+    margin-top: 100px;
+    font-weight: bolder;
+    font-size: 45px;
+}
+@media screen and  (max-width: 768px) {
+    .comm1 {
+      margin-top: 50px;
+    }
+  };
+.parag{
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: -0.9px;
+}
+.colr{
+    color: rgb(17, 124, 151);
+}
+.colr1{
+    color: rgb(17, 124, 151);
+    text-decoration: underline;
+    font-size: 20px;
+}
+.italiccs{
+    font-size: 20px;
+    letter-spacing: -0.9px;
+}
+.imggggg{
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.space{
+    margin-top: 100px;
+}
+.gensis{
+    font-size: 50px;
+    font-weight: bolder;
+    color: black;
+    padding: 20px;
+}
+.colour{
+    color:rgb(17, 124, 151) ;
+    font-size: 30px;
+    font-weight: 900;
+    padding: 20px;
+}
+#colr{
+    color: black;
+    font-size: 22px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+.vl {
+    border-left: 5px dashed rgb(78, 230, 78);
+    height: 120px;
+    margin-top: 20px;
+    margin-left: 150px;
+  }
+  .inlin{
+    color:#F16036;
+    text-decoration: underline;
+  }
+.btnbtnnn{
+    background-color:#F16036;
+    color: white;
+    font-weight: bold;
+    width: 40%;
+    margin-top: 50px;
+}
+  @media screen and (min-width: 768px) and (max-width: 1028px) {
+    .lastlist {
+      margin-top: 200px;
+    }
+  }
+  @media screen and (min-width: 425px) and (max-width: 768px) {
+    .lastlist {
+      margin-top: 250px;
+    }
+}
+@media screen and (min-width: 320px) and  (max-width: 424px) {
+        .lastlist {
+          margin-top: 350px;
+        }
+      };
+      /* @media screen and (min-width: 275px) and  (max-width: 374px) {
+        .lastlist {
+          margin-top: 450px;
+        }
+      }; */
